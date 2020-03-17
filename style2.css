@@ -1,0 +1,61 @@
+body {
+    color: purple;
+    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(example2.gif); }
+
+.quadrado {
+    background: rgb(212, 30, 30);
+    margin: auto;
+    color: #000;
+    border: 3px solid #000;
+    height: 150px;
+    width: 450px;
+    padding: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    line-height: 150px;
+}
+
+.t1 {
+    background: rgb(212, 30, 203);
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%) translateY(-60%);
+}
+
+.t2 {
+    background: rgb(118, 212, 30);
+    position: absolute;
+    right: 3%;
+}
+
+.t3 {
+    background: rgb(57, 30, 212);
+    position: absolute;
+    left: 3%;
+}
+
+.t4 {
+    background: rgb(212, 209, 30);
+    position: absolute;
+    left: 3%;
+    bottom: 10%;
+}
+
+.t5 {
+    position: absolute;
+    background: rgb(30, 212, 157);
+    right: 3%;
+    bottom: 10%;
+}
+
+.quadrado-internal{
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    width: 50px;
+    height: 50px;
+    transform: translateX(-50%, -50%);
+    line-height: 150px;
+}
